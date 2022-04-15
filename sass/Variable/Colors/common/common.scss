@@ -1,0 +1,18 @@
+#title-pages{ /*# apply id*/
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: $SecondaryColor;
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px 0px;
+    color: white;
+    cursor: pointer;
+    display: block; /*Relocate vertically / Realocar na vertical*/
+}
+@mixin textStyle ($color,$font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}

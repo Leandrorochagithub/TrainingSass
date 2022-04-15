@@ -1,0 +1,6 @@
+.container{
+    p{
+        @include textStyle($SecondaryColor, 16px, sans-serif);
+    }
+        
+}
